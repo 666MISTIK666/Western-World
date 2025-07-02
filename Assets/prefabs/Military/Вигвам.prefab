@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2558472091904947637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8999139488082260427}
+  - component: {fileID: 8673123722830688689}
+  - component: {fileID: 449803822355309588}
+  - component: {fileID: 7734095585403169175}
+  - component: {fileID: 9106374063980395487}
+  - component: {fileID: -6962365800476620892}
+  - component: {fileID: -9047894511347844203}
+  - component: {fileID: 1800472951826544392}
+  m_Layer: 0
+  m_Name: "\u0412\u0438\u0433\u0432\u0430\u043C"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8999139488082260427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558472091904947637}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -179.14, y: 13.5, z: 0}
+  m_LocalScale: {x: 1.15, y: 1.15, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
+--- !u!212 &8673123722830688689
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558472091904947637}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 6214068911616994556, guid: 37751479ab0aa15428d51f9580b0d6c5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 36.77, y: 32.99}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &449803822355309588
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558472091904947637}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 36.77, y: 32.99}
+    newSize: {x: 36.77, y: 32.99}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 38, y: 34}
+  m_EdgeRadius: 0
+--- !u!114 &7734095585403169175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558472091904947637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c67e797a8d8b64caae7d8a0fbf0493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: {x: 3, y: 3}
+  offsetMultiplier: {x: -0.9, y: -0.1}
+  cost:
+  - resourceName: Dollars
+    amount: 500
+  - resourceName: Wood
+    amount: 50
+  energyCost: 1
+  description: "\u0412\u0438\u0433\u0432\u0430\u043C, \u0442\u0440\u0435\u043D\u0438\u0440\u0443\u0439
+    \u0438\u043D\u0434\u0435\u0439\u0446\u0435\u0432, \u0447\u0442\u043E\u0431\u044B
+    \u043E\u0445\u0440\u0430\u043D\u044F\u043B\u0438 \u0442\u0432\u043E\u044E \u0434\u0435\u0440\u0435\u0432\u043D\u044E,
+    \u043D\u0443 \u0438\u043B\u0438 \u0430\u0442\u0430\u043A\u0430\u0432\u0430\u043B\u0438
+    \u0432\u0440\u0430\u0436\u0435\u0441\u043A\u0443\u044E, \u0432\u044B\u0431\u043E\u0440
+    \u0437\u0430 \u0442\u043E\u0431\u043E\u0439...)"
+  buildingType: 0
+  topArrowOffset: {x: 8, y: 12}
+  bottomArrowOffset: {x: 8, y: -28}
+  leftArrowOffset: {x: -13, y: -8}
+  rightArrowOffset: {x: 28, y: -8}
+--- !u!210 &9106374063980395487
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558472091904947637}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
+--- !u!114 &-6962365800476620892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558472091904947637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7e9559a33247a499d4b0a0627a6b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingMultiplier: 100
+--- !u!114 &-9047894511347844203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558472091904947637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6850c982f0267c41a6c4a437e64b59e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  longPressThreshold: 1
+--- !u!114 &1800472951826544392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558472091904947637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8988515338810c0488a488b078fb1d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fighterData:
+  - name: "\u0412\u043E\u0438\u043D \u0421 \u0422\u043E\u043C\u0430\u0433\u0430\u0432\u043A\u043E\u043C"
+    prefab: {fileID: 6217888415976324703, guid: ff1a8c6729835154cb9617ee3528dfc5, type: 3}
+    fighterType: {fileID: -6067339113064999845, guid: b18873e2a005c584496ec4acdbc99ad3, type: 3}
+    effectiveAgainst1: {fileID: 654194952, guid: f3cae5f633b805b44a3891dd8996db5c, type: 3}
+    effectiveAgainst2: {fileID: -3948861578094481783, guid: 956438fb7d71aa54784a7065ac739f9b, type: 3}
+    effectiveAgainst3: {fileID: -5825441860334520531, guid: 4604ee62cda93a34bad562e6c212a8cb, type: 3}
+    health: 60
+    damage: 25
+    costs:
+    - resourceType: 8
+      amount: 150
+    - resourceType: 0
+      amount: 7
+  - name: "\u0411\u0435\u043B\u044B\u0439 \u0428\u0430\u043C\u0430\u043D"
+    prefab: {fileID: 5520923784814175653, guid: e555d676a1b57054797b85ff2644ce96, type: 3}
+    fighterType: {fileID: 6635277417299765871, guid: 956438fb7d71aa54784a7065ac739f9b, type: 3}
+    effectiveAgainst1: {fileID: 4472663792692436207, guid: 12b84fd06b01a56479677ec101709b4d, type: 3}
+    effectiveAgainst2: {fileID: -108271511487736551, guid: 34da444835d959e47909de8827350120, type: 3}
+    effectiveAgainst3: {fileID: -7630395387669383104, guid: 70e346f2eead7d04281ec47c7e35f8af, type: 3}
+    health: 80
+    damage: 30
+    costs:
+    - resourceType: 8
+      amount: 300
+    - resourceType: 0
+      amount: 15
+  - name: "\u0418\u0440\u043E\u043A\u0435\u0437 \u0421 \u041B\u0443\u043A\u043E\u043C"
+    prefab: {fileID: 6182846286746942556, guid: c5aff88896e3ae041b0a4d8fdb8a538c, type: 3}
+    fighterType: {fileID: 7680563326442298390, guid: 34da444835d959e47909de8827350120, type: 3}
+    effectiveAgainst1: {fileID: 7992941449746310611, guid: cdab8d22346a9104787c2f39eaa95881, type: 3}
+    effectiveAgainst2: {fileID: -2086490557711246973, guid: b18873e2a005c584496ec4acdbc99ad3, type: 3}
+    effectiveAgainst3: {fileID: 1298818503945771531, guid: 784c63130f455f240acfa4f24350c61d, type: 3}
+    health: 100
+    damage: 20
+    costs:
+    - resourceType: 8
+      amount: 450
+    - resourceType: 0
+      amount: 22
+  - name: "\u0418\u0440\u043E\u043A\u0435\u0437 \u0421 \u0422\u043E\u043C\u0430\u0433\u0430\u0432\u043A\u043E\u043C"
+    prefab: {fileID: 7251697314764812275, guid: 4f03dfdfcf121ad438c8012e901916cc, type: 3}
+    fighterType: {fileID: -6067339113064999845, guid: b18873e2a005c584496ec4acdbc99ad3, type: 3}
+    effectiveAgainst1: {fileID: 654194952, guid: f3cae5f633b805b44a3891dd8996db5c, type: 3}
+    effectiveAgainst2: {fileID: -3948861578094481783, guid: 956438fb7d71aa54784a7065ac739f9b, type: 3}
+    effectiveAgainst3: {fileID: 5669371536821963824, guid: 4604ee62cda93a34bad562e6c212a8cb, type: 3}
+    health: 75
+    damage: 30
+    costs:
+    - resourceType: 8
+      amount: 1500
+    - resourceType: 0
+      amount: 75
+    - resourceType: 5
+      amount: 2
+  - name: "\u0427\u0435\u0440\u043D\u044B\u0439 \u0428\u0430\u043C\u0430\u043D"
+    prefab: {fileID: 4656596894145297129, guid: f3427df8acbe7a84ebf063bb9177b14f, type: 3}
+    fighterType: {fileID: 6635277417299765871, guid: 956438fb7d71aa54784a7065ac739f9b, type: 3}
+    effectiveAgainst1: {fileID: 4472663792692436207, guid: 12b84fd06b01a56479677ec101709b4d, type: 3}
+    effectiveAgainst2: {fileID: -108271511487736551, guid: 34da444835d959e47909de8827350120, type: 3}
+    effectiveAgainst3: {fileID: -7630395387669383104, guid: 70e346f2eead7d04281ec47c7e35f8af, type: 3}
+    health: 100
+    damage: 40
+    costs:
+    - resourceType: 8
+      amount: 1750
+    - resourceType: 0
+      amount: 90
+    - resourceType: 3
+      amount: 40
+  - name: "\u0412\u043E\u0436\u0434\u044C \u0421 \u041B\u0443\u043A\u043E\u043C"
+    prefab: {fileID: 1675598772584388552, guid: 3ce32d7cbcdfc9d48b4bf9b26033e878, type: 3}
+    fighterType: {fileID: 7680563326442298390, guid: 34da444835d959e47909de8827350120, type: 3}
+    effectiveAgainst1: {fileID: 7992941449746310611, guid: cdab8d22346a9104787c2f39eaa95881, type: 3}
+    effectiveAgainst2: {fileID: -2086490557711246973, guid: b18873e2a005c584496ec4acdbc99ad3, type: 3}
+    effectiveAgainst3: {fileID: 1298818503945771531, guid: 784c63130f455f240acfa4f24350c61d, type: 3}
+    health: 125
+    damage: 25
+    costs:
+    - resourceType: 8
+      amount: 1500
+    - resourceType: 0
+      amount: 75
+    - resourceType: 1
+      amount: 40
+  houseName: "\u0412\u0438\u0433\u0432\u0430\u043C"
+  longPressThreshold: 2
